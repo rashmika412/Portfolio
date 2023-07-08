@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="https://kit.fontawesome.com/0c59f45a4e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo"><span>P</span>ORTFOLIO</h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FRONTEND DEVELOPER</p>
+                <h1> Hi,
+                    <span class="wave">👋</span>
+                    I'm Rashmika
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------About----------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.jpg" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Highly skilled and motivated Frontend Developer with 2 years of
+                        experience seeking an opportunity to contribute my expertise in
+                        creating user-friendly web applications. Committed to delivering high-quality code and
+                        exceptional user experiences. Proficient in HTML5,`
+                        CSS3, JavaScript, and modern front-end frameworks. Solid
+                        understanding of responsive design principles, UI/UX best practices, and
+                        cross-browser compatibility. Excellent problem-solving and
+                        communication skills with a passion for creating visually appealing and
+                        intuitive user interfaces.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
+                        <p class="tab-links" onclick="opentab('experience')"> Experience </p>
+                        <p class="tab-links" onclick="opentab('education')"> Education </p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br />Web app Development</li>
+                            <li><span>UI/UX</span><br />Designing web/App interfaces</li>
+                            <li>Responsive Web Design</li>
+                            <li>React, jQuery, Redux</li>
+                            <li>Version Control Systems: Git
+                            </li>
+                            <li>Testing and Debugging</li>
+                            <li>Bootstrap, Tailwind Css, Material
+                                UI(MUI5)</li>
+                            <li>Basic knowledge of computer
+                                Science fundamentals</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>Designed, developed, and maintained the company's web applications and
+                                websites.
+                            </li>
+                            <li>Collaborated with cross-functional teams to define, design, and ship new
+                                features.</li>
+                            <li>Wrote reusable, testable, and efficient code in HTML, CSS, and JavaScript.
+                            </li>
+                            <li>·Optimized web applications for maximum speed and scalability.
+                            </li>
+                            <li>Stayed up-to-date with emerging trends and technologies in front-end
+                                development. Implemented responsive design and cross-browser compatibility
+                            </li>
+                            <li>·Worked with clients to understand requirements and provided solutions.
+                                Utilized Git for version control and collaboration.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.E (ELECTRICAL)</span><br />Rajiv Gandhi Proudyogiki
+                                Vishwavidyalaya<br /><span>JUN 2011 – JUN 2015</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------services-------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Application</h2>
+                    <p>Our web application, built using React and its powerful libraries, delivers a seamless user experience across all screen sizes. With responsive design at its core, our application automatically adjusts its layout and content, ensuring optimal usability on desktops, tablets, and mobile devices. Enjoy a consistent and engaging interface, no matter the device you're using.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Static/Dynamic website</h2>
+                    <p>Static web development involves creating web pages with fixed content that remains the same for all users. It's ideal for simple landing pages, providing fast loading times and easy maintenance. Dynamic web development, on the other hand, utilizes server-side technologies to generate web pages dynamically, offering personalized content and interactive features based on user input. It's suitable for more complex landing pages that require user interaction and data processing.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-sharp fa-solid fa-layer-group"></i>
+                    <h2>Responsive web design</h2>
+                    <p>Responsive web design is a crucial approach that ensures optimal user experience across various devices and screen sizes. By employing fluid layouts, flexible images, and media queries, responsive design allows websites to adapt seamlessly, providing an intuitive and visually appealing interface. It enhances accessibility, increases engagement, and boosts conversions, ultimately driving business success.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="technology">
+            <h3>Technologies Used</h3>
+            <div class="tech-list">
+                <img src="image/react.png" alt="react" class="logo" />
+                <span><img src="Image/javascript.png" alt="javascript" class="logo" /></span>
+                <img src="image/css.png" alt="css" class="logo" />
+                <span><img src="image/pngwing.com.png" alt="html" class="logo" /></span>
+                <img src="image/git.png" alt="git" class="logo" />
+                <img src="image/sass.png" alt="scss" class="logo" />
+                <img src="image/bootstrap.png" alt="bootstrap" class="logo" />
+                <img src="image/nodejs_icon.png" alt="node" class="logo" />
+                <img src="image/tailwind.png" alt="tailwind" class="logo" />
+                <img src="image/redux.png" alt="redux" class="logo" />
+                <img src="image/npm.png" alt="npm" class="logo" />
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------portfolio------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div`` class="work-list">
+                <div class="work">
+                    <img src="image/image.png" />
+                    <div class="layer">
+                        <h3>E-commerce App</h3>
+                        <p>Developed a responsive e-commerce website using React and Redux. Implemented features such as
+                            product listing, filtering, sorting, shopping cart functionality, and user authentication
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/image(3).png" />
+                    <div class="layer">
+                        <h3>Todo List</h3>
+                        <p>Developed a task management application that helps users organize and prioritize their tasks
+                            efficiently. Implemented features such as task creation, editing. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/image(4).png" />
+                    <div class="layer">
+                        <h3>Covid livetracker</h3>
+                        <p>Covid live tracker that provides real time tracking and visualization of
+                            COVID-19 statistics and features like displaying global or regional COVID19 cases, deaths
+                            and recoveries. Integrated APIs to fetch real-time data from reliable sources and ensured
+                            accuracy and timely updates.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/image(2).png" />
+                    <div class="layer">
+                        <h3>News App</h3>
+                        <p>Developed a news application that provides users with up-to-date news articles from various
+                            reliable sources. Implemented features such as categories filtering, search functionality.
+                            Integrating APIs to fetch and display news content, ensuring real-time updates and efficient
+                            data retrieve. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/image(1).png" />
+                    <div class="layer">
+                        <h3>Weathere App</h3>
+                        <p>Developed a weather forecast application that provides weather information for different
+                            locations. Utilized APIs to retrieve weather data including temperature, humidity, wind
+                            speed and precipitation.
+                            Implemented features such as location search.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+    </div>
+    <!-- --------------------contact-------------------------- -->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> choudharyrashmika412@gmail.com </p>
+                    <p><i class="fas fa-phone-square-alt"></i> 08084656495 </p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/rashmika-a92978263/"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/rashmika_0422/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/rashmika412"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="image/CV-2023.pdf" download class="btn btn-2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input
+                         type="text"
+                         name="Name" 
+                         placeholder="Your Name" 
+                         required 
+                         autocomplete="off"
+                         />
+                        <input 
+                        type="email" 
+                        name="Email" 
+                        placeholder="Your Email" 
+                        required 
+                        autocomplete="off"
+                        />
+                        <textarea 
+                        name="Message" 
+                        placeholder="Your message" 
+                        rows="6">
+                    </textarea>
+
+                        <button 
+                        type="submit" 
+                        class="btn btn-2">
+                        submit
+                    </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        const openmenu = () => {
+            sidemenu.style.right = "0";
+        }
+
+        const closemenu = () => {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
